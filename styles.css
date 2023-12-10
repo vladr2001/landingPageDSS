@@ -81,6 +81,8 @@ header h1 {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-size: 25px;
+  margin: 25px;
 }
 .cta-button:hover {
   background-color: #0056b3;
@@ -111,4 +113,22 @@ footer {
   max-width: 100%;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.wireframe {
+  overflow-x: auto; /* Adăugăm un overflow orizontal cu scroll pe dispozitive mici */
+}
+
+.app-images {
+  display: grid; /* Folosim un grid layout pentru a organiza imaginile */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Coloane flexibile */
+  gap: 10px; /* Spațiu între imagini */
+}
+
+.app-images img {
+  max-width: 100%; /* Asigurăm ca imaginile să nu iasă din container */
+  height: auto; /* Menținem raportul inițial al imaginilor */
+}
+
+.title_header {
+  font-size: 300%;
 }
