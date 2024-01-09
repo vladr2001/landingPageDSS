@@ -132,3 +132,16 @@ footer {
 .title_header {
   font-size: 300%;
 }
+
+#floatingButton {
+  position: fixed;
+  bottom: 20px; /* Poziționare de la marginea de jos a ecranului */
+  right: 20px; /* Poziționare de la marginea dreaptă a ecranului */
+  z-index: 999; /* Asigură că butonul este afișat deasupra altor elemente */
+  /* Alte stiluri pentru buton, cum ar fi aspectul și dimensiunea */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
